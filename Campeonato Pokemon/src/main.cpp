@@ -1,4 +1,4 @@
-#include "avaliacao_basica_pokemon.hpp"
+// #include "avaliacao_basica_pokemon.hpp"
 #include "Campeonato.hpp"
 #include "Pokemon.hpp"
 #include "PokemonAquatico.hpp"
@@ -9,7 +9,7 @@
 #include <string>
 
 int main() {
-  //cout << "entrei na main" << endl;
+  cout << "entrei na main" << endl;
 
   Campeonato _Campeonato;
 
@@ -93,7 +93,7 @@ int main() {
                        // no main.cpp). Essa função faz uma avaliação
                        // complementar do código (não apenas dos resultados)
       //cout << "entrei no b" << endl;
-      avaliacao_basica();
+      // avaliacao_basica();
     }
 
     // if (modo == 'E') {
