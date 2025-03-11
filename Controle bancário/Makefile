@@ -17,3 +17,6 @@ $(OBJ_DIR)/main.o: $(INCLUDE_DIR)/ContaBancaria.hpp $(INCLUDE_DIR)/Banco.hpp $(S
     
 vpl_execution: $(OBJ_DIR)/main.o $(OBJ_DIR)/ContaBancaria.o $(OBJ_DIR)/Banco.o
 	$(CC) $(CFLAGS) $(OBJ_DIR)/main.o $(OBJ_DIR)/ContaBancaria.o $(OBJ_DIR)/Banco.o -o vpl_execution
+
+# make all
+# ./vpl_execution
