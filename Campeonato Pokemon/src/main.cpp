@@ -9,7 +9,7 @@
 #include <string>
 
 int main() {
-  cout << "entrei na main" << endl;
+  // cout << "entrei na main" << endl;
 
   Campeonato _Campeonato;
 
