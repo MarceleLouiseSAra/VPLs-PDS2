@@ -36,5 +36,5 @@ all: run
 
 build: run greetings
 
-clean: $(OBJ_DIR)/Campeonato.o $(OBJ_DIR)/Treinador.o $(OBJ_DIR)/Pokemon.o $(OBJ_DIR)/PokemonAquatico.o $(OBJ_DIR)/PokemonEletrico.o $(OBJ_DIR)/PokemonExplosivo.o $(OBJ_DIR)/main.o
+clean: $(OBJ_DIR)/Campeonato.o $(OBJ_DIR)/Treinador.o $(OBJ_DIR)/Pokemon.o $(OBJ_DIR)/PokemonAquatico.o $(OBJ_DIR)/PokemonEletrico.o $(OBJ_DIR)/PokemonExplosivo.o $(OBJ_DIR)/main.o $(BIN_DIR)/run
 	rm $^
