@@ -23,4 +23,5 @@ clean: $(OBJ_DIR)/main.o $(OBJ_DIR)/ContaBancaria.o $(OBJ_DIR)/Banco.o $(BIN_DIR
 	rm $^
 
 # make all
+# cd bin
 # ./vpl_execution
