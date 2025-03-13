@@ -3,6 +3,7 @@ CFLAGS=-std=c++11 -Wall
 SRC_DIR=src
 INCLUDE_DIR=include
 OBJ_DIR=obj
+BIN_DIR=bin
 
 greetings:
 	@echo "Compilação realizada com sucesso!"
@@ -29,7 +30,7 @@ $(OBJ_DIR)/main.o: $(INCLUDE_DIR)/Campeonato.hpp $(INCLUDE_DIR)/Treinador.hpp $(
 	$(CC) $(CFLAGS) -c $(SRC_DIR)/main.cpp -I$(INCLUDE_DIR) -o $@
 
 run: $(OBJ_DIR)/Campeonato.o $(OBJ_DIR)/Treinador.o $(OBJ_DIR)/Pokemon.o $(OBJ_DIR)/PokemonAquatico.o $(OBJ_DIR)/PokemonEletrico.o $(OBJ_DIR)/PokemonExplosivo.o $(OBJ_DIR)/main.o
-	$(CC) $(CFLAGS) $^ -o $@
+	$(CC) $(CFLAGS) $^ -o $(BIN_DIR)/$@
 
 all: run
 
