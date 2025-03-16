@@ -29,12 +29,12 @@ $(OBJ_DIR)/PokemonExplosivo.o: $(INCLUDE_DIR)/Pokemon.hpp $(INCLUDE_DIR)/Pokemon
 $(OBJ_DIR)/main.o: $(INCLUDE_DIR)/Campeonato.hpp $(INCLUDE_DIR)/Treinador.hpp $(INCLUDE_DIR)/Pokemon.hpp $(INCLUDE_DIR)/PokemonAquatico.hpp $(INCLUDE_DIR)/PokemonEletrico.hpp $(INCLUDE_DIR)/PokemonExplosivo.hpp $(SRC_DIR)/main.cpp
 	$(CC) $(CFLAGS) -c $(SRC_DIR)/main.cpp -I$(INCLUDE_DIR) -o $@
 
-run: $(OBJ_DIR)/Campeonato.o $(OBJ_DIR)/Treinador.o $(OBJ_DIR)/Pokemon.o $(OBJ_DIR)/PokemonAquatico.o $(OBJ_DIR)/PokemonEletrico.o $(OBJ_DIR)/PokemonExplosivo.o $(OBJ_DIR)/main.o
+vpl_execution: $(OBJ_DIR)/Campeonato.o $(OBJ_DIR)/Treinador.o $(OBJ_DIR)/Pokemon.o $(OBJ_DIR)/PokemonAquatico.o $(OBJ_DIR)/PokemonEletrico.o $(OBJ_DIR)/PokemonExplosivo.o $(OBJ_DIR)/main.o
 	$(CC) $(CFLAGS) $^ -o $(BIN_DIR)/$@
 
-all: run
+all: vpl_execution
 
-build: run greetings
+build: vpl_execution greetings
 
-clean: $(OBJ_DIR)/Campeonato.o $(OBJ_DIR)/Treinador.o $(OBJ_DIR)/Pokemon.o $(OBJ_DIR)/PokemonAquatico.o $(OBJ_DIR)/PokemonEletrico.o $(OBJ_DIR)/PokemonExplosivo.o $(OBJ_DIR)/main.o $(BIN_DIR)/run
+clean: $(OBJ_DIR)/Campeonato.o $(OBJ_DIR)/Treinador.o $(OBJ_DIR)/Pokemon.o $(OBJ_DIR)/PokemonAquatico.o $(OBJ_DIR)/PokemonEletrico.o $(OBJ_DIR)/PokemonExplosivo.o $(OBJ_DIR)/main.o $(BIN_DIR)/vpl_execution
 	rm $^
