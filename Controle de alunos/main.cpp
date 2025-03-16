@@ -50,8 +50,3 @@ int main(){
     
     return 0;
 }
-
-// g++ -c aluno.cpp -o aluno.o
-// g++ -c main.cpp -o main.o
-// g++ main.o aluno.o -o main
-// ./main

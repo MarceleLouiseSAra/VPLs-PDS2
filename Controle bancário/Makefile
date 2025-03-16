@@ -21,7 +21,3 @@ vpl_execution: $(OBJ_DIR)/main.o $(OBJ_DIR)/ContaBancaria.o $(OBJ_DIR)/Banco.o
 
 clean: $(OBJ_DIR)/main.o $(OBJ_DIR)/ContaBancaria.o $(OBJ_DIR)/Banco.o $(BIN_DIR)/vpl_execution
 	rm $^
-
-# make all
-# cd bin
-# ./vpl_execution
