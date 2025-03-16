@@ -19,7 +19,7 @@ g++ <nome_do_arquivo>.cpp -o <nome_do_arquivo>
 ### Para o programa em "Controle de alunos",
 
 ```bash
-# digite, no terminal, os comandos:
+# digite, em um terminal aberto no referido diretório, os comandos:
 g++ -c aluno.cpp -o aluno.o
 g++ -c main.cpp -o main.o
 g++ main.o aluno.o -o main
