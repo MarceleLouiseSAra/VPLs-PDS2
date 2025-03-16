@@ -50,7 +50,7 @@ cd ..
 
 ```bash
 # e digite 
- make clean
+make clean
 ```
 
 Infelizmente, o programa que se encontra na pasta "HeapInt" (ainda) não pode ser executado.
