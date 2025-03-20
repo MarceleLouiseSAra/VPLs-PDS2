@@ -1,7 +1,7 @@
 # VPLs de P.D.S. II
 
 *Programação e Desenvolvimento de Software II* é uma matéria ofertada pelo Departamento de Ciência da Computação da Universidade Federal de Minas Gerais 
-e que utiliza da linguagem de programação *C++* para introduzir os conceitos que caracterizam o paradigma de programação orientada a objetos – no qual, por sua vez, 
+e que utiliza da linguagem de programação *C++* para introduzir os conceitos que caracterizam o paradigma de programação orientada a objetos – no qual 
 contribui para a criação de um código enxuto, modularizado (organizado em subdivisões, promovendo a indepedência entre diferentes partes do código) e escalável.
 
 Em particular, chamo atenção para o uso de um arquivo *Makefile* para otimizar o processo de compilação; a sua utilização garante que arquivos que não sofreram alterações sejam recompilados desnecessariamente.
