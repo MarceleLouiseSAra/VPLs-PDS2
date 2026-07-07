@@ -4,7 +4,7 @@
 e que utiliza da linguagem de programação *C++* para introduzir os conceitos que caracterizam o paradigma de programação orientada a objetos – no qual 
 contribui para a criação de um código enxuto, modularizado (organizado em subdivisões, promovendo a indepedência entre diferentes partes do código) e escalável.
 
-Em particular, chamo atenção para o uso de um arquivo *Makefile* para otimizar o processo de compilação; a sua utilização garante que arquivos que não sofreram alterações sejam recompilados desnecessariamente.
+Em particular, chamo atenção para o uso de um arquivo *Makefile* para otimizar o processo de compilação; a sua utilização garante que arquivos que não sofreram alterações não sejam recompilados desnecessariamente.
 
 ## Modo de uso
 
